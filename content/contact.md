@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2019-08-09T08:57:08Z
-draft: true
+draft: false
 ---
 Email: contact_at_ekho[dot]email
 

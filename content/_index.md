@@ -1,7 +1,7 @@
 ---
 title: "Information"
 date: 2019-08-09T08:56:46Z
-draft: true
+draft: false
 ---
 
 mostly writing obscure Linux/BSD software with the occasional bit of AVR firmware.
