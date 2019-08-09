@@ -3,6 +3,7 @@
         <div class="main">
             <div class="infobox infohead">
                 <h2>{{ .Title }}</h2>
+                <h6>published on: {{ .PublishDate.Format "2006-01-02" }}</h6>
             </div>
             <div class="infobox infomsg">
                 {{ .Content }}
