@@ -1,0 +1,16 @@
+<ul class="nav">
+    <li><a class="navbar-brand" href="{{ "/" | absLangURL }}">{{ .Site.Title }}</a></li>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+        </li>
+    {{ end }}
+    <li><a href="https://git.ekho.digital/Ekho" target="_blank">Git</a></li>
+    <li><a href="https://github.com/0ekho" target="_blank">Github</a></li>
+    <li><a href="https://mstdn.jp/@Ekho" target="_blank">Mastodon</a></li>
+    <li><a href="https://twitter.com/0Ekho" target="_blank">Twitter</a></li>
+    <li><a href="https://x88.moe" target="_blank">x88.moe</a></li>
+    <!--<li><a href="https://steamcommunity.com/id/0Ekho" target="_blank">Steam</a></li>-->
+    <!--<li><a href="https://osu.ppy.sh/u/ekho" target="_blank">osu!</a></li>-->
+</ul>

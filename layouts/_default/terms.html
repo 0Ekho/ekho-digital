@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <main id="main">
+        <div id="content">
+            <div class="main">
+                <div class="infobox infohead">
+                    <h1>{{ .Title }}</h1>
+                </div>
+                <div class="infobox infomsg">
+                    {{ range .Data.Terms.Alphabetical }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li> 
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </main>
+{{ end }}

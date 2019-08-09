@@ -1,0 +1,80 @@
+baseURL = "https://www.ekho.digital/"
+
+copyright = "CC BY 4.0"
+
+languageCode = "en"
+title = "ekho.digital"
+
+disableHugoGeneratorInject = false
+enableRobotsTXT = true
+disableLiveReload = true
+
+enableGitInfo = true
+
+[params]
+  AuthorName = "Ekho"
+  GitHubUser = "0Ekho"
+  SidebarRecentLimit = 8
+  Subtitle = "¯\\_(ツ)_/¯"
+  # mabe CC0 instead?
+  copyrighthtml = "Copyright &#xA9; 2019 Ekho, <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>."
+
+[permalinks]
+  blog = "/blog/:year/:month/:title/"
+
+[taxonomies]
+  tag = "tags"
+
+# would be nice to do multilingual posts at some point. some basic setup for this
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "ekho.digital"
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      linkedin = "https://www.ekho.ditial/en"
+  [languages.ja]
+    title = "ekho.digital 日本語"
+    weight = 2
+    isCJKLanguage = true
+    languageName = "日本語"
+    [languages.ja.params]
+      linkedin = "https://www.ekho.ditial/ja"
+
+# main navbar intersite entries
+sectionPagesMenu = "main"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -120
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = -110
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = -100
+
+# ja
+[[languages.ja.menu.main]]
+    identifier = "home"
+    name = "ホーム"
+    url = "/"
+    weight = -120
+[[languages.ja.menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = -110
+[[languages.ja.menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = -100

@@ -1,0 +1,38 @@
+@media (max-width: 450px) {
+	a.navbar-brand { display: none !important; }
+}
+nav {
+    display: block;
+}
+a.navbar-brand {
+    font-size: 18px;
+}
+ul.nav {
+    overflow: auto;
+    list-style-type: none;
+    background-color: #222;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 50px;
+    white-space: nowrap;
+}
+ul.nav li {
+    float: left;
+    line-height: 20px;
+    vertical-align: middle;
+}
+ul.nav a {
+    display: block;
+    color: #888;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.nav a:hover {
+    color: #EEE;
+}
+.nav .active, .nav .active a {
+    background-color: #080808;
+    color: #FFF;
+}

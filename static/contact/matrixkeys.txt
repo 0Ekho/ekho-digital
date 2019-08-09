@@ -1,0 +1,23 @@
+Device Name:    Riot Desktop - workstation
+Device ID:	DQDZWTVKYL
+Device key:	Ae++ NXy5 +KWa OgNe gk/I IToh Wfax C6rT BJFo VTEk 7x8
+
+Device Name:    Mobile
+Device ID	EKTDLUOKFT
+Device key:	yuXU tpY7 W2jY dpCM PU1l 3iwg nrFq bN+f Q2j0 ARP7 mzw
+
+/* ------------------------------------------------------------------ */
+/* Outdated */
+
+// pre 2019-04-12
+Device Name:    Riot Desktop - workstation
+Device ID:      LYCIVSIAKX
+Device key:     HOVa 1iBA 5q2Z b+JL YPkk ObWw aEgZ 8roz diUI B8aW dJs
+
+Device Name:    Mobile
+Device ID	AFNYJQSTPY
+Device key:	tKQz qUsr sa0C 5GTo qJWz +PvU tYu5 pxwN pAsm 8C/W pZQ
+
+Device Name:    Riot Desktop - laptop
+Device ID:	YTNEIARZDK
+Device key:	WadW sPf8 CpCL L4Z8 Wql/ qBz7 TVwS 2pr6 Viku V/JN Mdw
