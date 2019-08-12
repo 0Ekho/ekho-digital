@@ -53,17 +53,18 @@ a:active { color: #33FFDD; }
     background: rgba(8, 8, 8, 0.75);
     border-radius: 4px;
     margin-top: 24px;
-    margin-left: 5%;
-    width: 40%;
-    min-width: 419px;
+    margin-left: 2%;
+    width: 80%;
+    min-width: 200px;
+    max-width: 1200px;
     color: #EEEEEE;
 }
 .infobox.infohead {
     text-align: center;
-    padding: 16px 32px;
+    padding: 16px 5%;
 }
 .infobox.infomsg {
-    padding: 32px 32px;
+    padding: 32px 5%;
 }
 .smallnote {
     font-size: 85%;
