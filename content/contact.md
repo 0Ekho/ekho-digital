@@ -27,7 +27,7 @@ Email (personal): ekho_at_ekho[dot]email
 Matrix: [@Ekho:matrix.org](https://matrix.org) | [Device IDs/Keys](./matrixkeys.txt)
 
 IRC: [freenode/Ekho](irc://chat.freenode.net:6697/Ekho,isnick) | I can normally be found on the
-freenode network under the nick "Ekho"
+freenode, OFTC, and EsperNet networks under the nick "Ekho",
 
 Mastodon: [Ekho@mstdn.jp](https://mstdn.jp/@Ekho)
 
