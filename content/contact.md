@@ -29,6 +29,6 @@ Matrix: [@Ekho:matrix.org](https://matrix.org) | [Device IDs/Keys](./matrixkeys.
 IRC: [freenode/Ekho](irc://chat.freenode.net:6697/Ekho,isnick) | I can normally be found on the
 freenode, OFTC, and EsperNet networks under the nick "Ekho",
 
-Mastodon: [Ekho@mstdn.jp](https://mstdn.jp/@Ekho)
+Mastodon: [Ekho@x0r.be](https://x0r.be/@Ekho)
 
 Twitter: [@0Ekho](https://twitter.com/0Ekho)
