@@ -17,7 +17,7 @@ Email (personal): ekho_at_ekho[dot]email
 <div class="smallnote smallindent grey">
   PGP information:
 
-  ekho_at_ekho[dot]email || zeroekho_at_gmail[dot]com
+  ekho_at_ekho[dot]email
 
   full public key: [pubkey.asc](./pubkey.asc)
 
