@@ -1,0 +1,23 @@
+image: alpine/edge
+secrets:
+  - 7fe491a0-a779-4a4a-baed-7db227ac60d3
+environment:
+  deploy: webmin@www.ekho.digital
+  deploy_kh: '|1|EgcvZ097BqNh6lEQPk5Ss5RichQ=|27FOlTXwXLK2YYo1DXXId57icPQ= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGOVPZbfnKBUWVY/mRxgpgNI3kkGbxGX/scmrqfpBi2mAMogCY+oswnSqMdRSwEJuO97h0ty+OB83913L0BNbpU='
+packages:
+  - hugo
+sources:
+  - https://git.sr.ht/~ekho/ekho-digital
+triggers:
+  - action: email
+    condition: always
+    to: notif+builds@ekho.email
+tasks:
+  - build: |
+      cd ekho-digital
+      hugo
+  - deploy: |
+      cd ekho-digital
+      if [ "$(git rev-parse master)" != "$(git rev-parse HEAD)" ]; then complete-build; fi
+      echo "${deploy_kh}" > ~/.ssh/known_hosts
+      ssh -p 50022 ${deploy}
