@@ -1,14 +1,13 @@
+/* ------------------------------------------------------------------ */
+/* Current */
+
 Device Name: https://riot.im/app/ via Firefox - workstation
 Device ID:   QJFICWXTDD
 Device key:  +r33 K6Hk 61Gm k177 sZwF udWO 2R1y LK33 6/ea KNZa XuA
 
 Device Name: Mobile
-Device ID:   EKTDLUOKFT
-Device key:  yuXU tpY7 W2jY dpCM PU1l 3iwg nrFq bN+f Q2j0 ARP7 mzw
+Device ID:   MMHNVOQMXZ
+Device key:  iL4/ /QL+ 0KEA OzVQ IO5J ceSy db2S 3PH8 4Q58 WULZ N1I
 
 /* ------------------------------------------------------------------ */
 /* Outdated */
-
-Device Name: Mobile
-Device ID:   AFNYJQSTPY
-Device key:  tKQz qUsr sa0C 5GTo qJWz +PvU tYu5 pxwN pAsm 8C/W pZQ
