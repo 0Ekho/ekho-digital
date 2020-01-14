@@ -78,3 +78,8 @@ sectionPagesMenu = "main"
     name = "Blog"
     url = "/blog/"
     weight = -100
+
+
+[services.rss]
+  limit = 1000000
+

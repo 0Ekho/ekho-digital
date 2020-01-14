@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <main id="main">
+        <div class="main">
+            <div class="infobox infohead">
+                <h1>Posts</h1>
+                <h4><a href="{{ "/tags" | absLangURL }}">Tags</a>, <a href="{{ "/blog/index.xml" | absLangURL }}">RSS</a><h4>
+            </div>
+            {{ range .Pages }}
+                <div class="infobox infomsg">
+                    <article>
+                        <h3><a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        <h6>published on: {{ .PublishDate.Format "2006-01-02" }}</h6>
+                        {{ .Content }}
+                    </article>
+                </div>
+            {{ end }}
+        </div>
+    </main>
+{{ end }}
