@@ -83,3 +83,5 @@ sectionPagesMenu = "main"
 [services.rss]
   limit = 1000000
 
+[markup.goldmark.renderer]
+  unsafe= true
