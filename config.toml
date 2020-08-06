@@ -17,7 +17,7 @@ enableGitInfo = true
   SidebarRecentLimit = 8
   Subtitle = "¯\\_(ツ)_/¯"
   # mabe CC0 instead?
-  copyrighthtml = "Copyright &#xA9; 2019 Ekho, <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>."
+  copyrighthtml = "Copyright &#xA9; 2020 Ekho, <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>."
 
 [permalinks]
   blog = "/blog/:year/:month/:title/"

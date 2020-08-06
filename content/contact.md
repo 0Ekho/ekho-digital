@@ -24,11 +24,12 @@ Email (personal): ekho_at_ekho[dot]email
   fingerprint:  `EF5D 598F 9DA2 FB2D 9451  9482 4E12 4BF7 2D06 3C45`
 </div>
 
-Matrix: [@Ekho:matrix.org](https://matrix.org) | [Device IDs/Keys](./matrixkeys.txt)
-
 IRC: [freenode/Ekho](irc://chat.freenode.net:6697/Ekho,isnick) | I can normally be found on the
-freenode, OFTC, and EsperNet networks under the nick "Ekho",
+freenode, OFTC, and EsperNet networks under the nick "Ekho"
+
+XMPP: [ekho@ekho.digital](xmpp:ekho@ekho.digital)
 
 Mastodon: [Ekho@x0r.be](https://x0r.be/@Ekho)
 
 Twitter: [@0Ekho](https://twitter.com/0Ekho)
+
