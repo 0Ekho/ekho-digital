@@ -29,7 +29,5 @@ freenode, OFTC, and EsperNet networks under the nick "Ekho"
 
 XMPP: [ekho@ekho.digital](xmpp:ekho@ekho.digital)
 
-Mastodon: [Ekho@x0r.be](https://x0r.be/@Ekho)
-
 Twitter: [@0Ekho](https://twitter.com/0Ekho)
 
