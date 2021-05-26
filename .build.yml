@@ -1,7 +1,7 @@
 image: alpine/edge
 secrets:
   - 7fe491a0-a779-4a4a-baed-7db227ac60d3
-  - 76f26286-d95d-421d-97ad-ad33ca880e4d
+  - 9035cd79-49c4-42dd-b874-dba4d52b27bb
 environment:
   deploy: webmin@www.ekho.digital
 packages:
