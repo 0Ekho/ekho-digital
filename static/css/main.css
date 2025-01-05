@@ -123,3 +123,6 @@ ul.nav a:hover {
 .monospace, code {
     font-family: "Hack", "Mononoki", "Fira Code", "Noto Sans Mono CJK JP", "Noto Sans Mono", "DejaVu Sans Mono", "monospace";
 }
+.hidden {
+    display: none;
+}

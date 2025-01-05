@@ -5,15 +5,22 @@ draft: false
 ---
 Email: contact_at_ekho[dot]email
 
-<span class="smallnote">If PGP is needed please use our personal email instead, listed further below.</span>
+<span class="smallnote">other options are listed further below.</span>
 
 <br>Responses should be given in less then 24 hours, please be patient.
 
 --------
 
-For PGP or if you perfer methods other than email:
+[age](https://github.com/FiloSottile/age) Information:
 
-Email (personal): ekho_at_ekho[dot]email
+<div class="smallnote smallindent grey">
+
+  Public key: `age1yxx9aclavstmt8ppgsgkpuqh6yzdjrgsd6ycwc93zsd5n9f57azs6tq5tq`
+</div>
+
+PGP is [no longer recommended](https://www.latacora.com/blog/2019/07/16/the-pgp-problem/), 
+Information is provided for legacy purposes:
+
 <div class="smallnote smallindent grey">
   PGP information:
 
@@ -24,10 +31,17 @@ Email (personal): ekho_at_ekho[dot]email
   fingerprint:  `EF5D 598F 9DA2 FB2D 9451  9482 4E12 4BF7 2D06 3C45`
 </div>
 
+<!-- TODO: add signal at some point instead as encrypted email has several inherent issues regardless of method used -->
+<!-- If encrypted email is required, Attach your message as a text file run through age and send to the email at the top -->
+
+--------
+
+If you prefer methods other than email:
+
 IRC: [OFTC/Ekho](irc://chat.oftc.net:6697/Ekho,isnick) | we can normally be found on the
 OFTC, libera, and EsperNet networks under the nick "Ekho"
 
 XMPP: [ekho@ekho.digital](xmpp:ekho@ekho.digital)
 
-Twitter: [@0Ekho](https://twitter.com/0Ekho)
+Fediverse: [@ekho@treehouse.systems](https://social.treehouse.systems/@ekho)
 
